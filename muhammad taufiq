@@ -1,0 +1,33 @@
+
+package belajarcoding;
+
+import java.util.Scanner;
+
+
+public class BelajarCoding {
+    public static void main(String[] args) {
+        Scanner inputuser = new Scanner (System.in);
+        
+        System.out.println("Biodata Mahasiswa");
+        
+        System.out.print("Nama : ");
+        String nama = inputuser.nextLine();
+        
+        System.out.print("Hobi : ");
+        String hobi = inputuser.nextLine();
+        
+        System.out.print("Umur : ");
+        int umur = inputuser.nextInt();
+        
+        System.out.print("NIM : ");
+        long nim = inputuser.nextLong();
+        
+        System.out.println("=================");
+        System.out.println("Nama : " + nama);
+        System.out.println("Hobi : " + hobi);
+        System.out.println("Umur : " + umur);
+        System.out.println("NIM  : " + nim);
+        
+    }
+
+  }
